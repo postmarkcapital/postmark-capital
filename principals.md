@@ -4,10 +4,4 @@ title: Principals
 permalink: /principals/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+Postmark’s executives bring strong industry expertise and immediate credibility with sellers of both marketed and un-marketed assets.  The two principals have over 15 years of combined experience in banking, consulting, and advisory services within the commercial real estate industry.

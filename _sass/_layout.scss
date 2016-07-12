@@ -99,24 +99,32 @@
   font-size: 0.8rem;
   padding: $spacing-unit 0;
 
-  nav ul {
-    list-style-type: none;
-    margin-left: 0;
+  .site-nav-menu li {
+    margin: 0;
 
-    li {
-      display: inline;
+    &:after {
+      content: ' | ';
+    }
 
-      &:after {
-        content: ' | ';
-      }
-
-      &:last-child:after {
-        content: '';
-      }
+    &:last-child:after {
+      content: '';
     }
   }
 }
 
+nav ul {
+  list-style-type: none;
+  margin-left: 0;
+
+  li {
+    display: inline;
+    margin-right: .5rem;
+
+    &:not(:first-child) {
+      margin-left: .5rem;
+    }
+  }
+}
 
 /**
  * Page content
