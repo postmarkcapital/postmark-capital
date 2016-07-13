@@ -1,0 +1,19 @@
+#submit-message {
+  display: none;
+
+  &.success {
+    display: block;
+
+    .error-text {
+      display: none;;
+    }
+  }
+
+  &.error {
+    display: block;
+
+    .success-text {
+      display: none;
+    }
+  }
+}
