@@ -26,7 +26,9 @@
       request.send(new FormData($form));
     }
 
-    $form.addEventListener('submit', handleSubmit, false);
+    if ($form) {
+      $form.addEventListener('submit', handleSubmit, false);
+    }
   }
 
   document.addEventListener('DOMContentLoaded', goTime);
