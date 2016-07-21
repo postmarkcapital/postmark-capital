@@ -11,7 +11,7 @@
 }
 
 .site-title {
-  color: $grey-color-dark;
+  color: $grey-color-light;
   font-size: 26px;
   font-weight: 300;
   line-height: 56px;
@@ -24,12 +24,16 @@
   float: right;
   line-height: 56px;
 
+  .site-nav-menu ul {
+    margin-bottom: 0;
+  }
+
   .menu-icon {
     display: none;
   }
 
   .page-link {
-    color: $grey-color-dark;
+    color: $grey-color-light;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -95,6 +99,7 @@
  * Site footer
  */
 .site-footer {
+  background: $accent-color;
   border-top: 1px solid $grey-color-light;
   font-size: 0.8rem;
   padding: $spacing-unit 0;
