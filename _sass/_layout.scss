@@ -4,10 +4,25 @@
 .site-header {
   background: $brand-color;
   border-bottom: 1px solid $grey-color-light;
-  min-height: 56px;
+  height: 112px;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  @include media-query($on-palm) {
+    height: 56px;
+  }
+}
+
+.logo {
+  height: 57%;
+  position: absolute;
+  top: 22px;
+
+  @include media-query($on-palm) {
+    height: 90%;
+    top: 5%;
+  }
 }
 
 .site-title {
@@ -18,6 +33,8 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  position: absolute;
+  top: -10000000px;
 }
 
 .site-nav {
