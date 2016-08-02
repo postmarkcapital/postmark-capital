@@ -17,3 +17,41 @@
     }
   }
 }
+
+input:not([type="submit"]) {
+  padding: .2rem;
+}
+
+textarea {
+  width: 50%;
+}
+
+input[type="submit"],
+button {
+  background: transparent;
+  border: 1px solid $brand-color;
+  border-radius: $border-radius;
+  color: $brand-color;
+  margin-top: 16px;
+  padding: .5rem 1rem;
+
+  &:hover {
+    background: $brand-color;
+    color: #fff;
+  }
+}
+
+input:not([type="submit"]), textarea {
+  border: 1px solid $grey-color-light;
+  border-radius: $border-radius;
+  display: block;
+  font-size: $base-font-size;
+}
+
+label {
+  display: block;
+}
+
+label:not(:nth-of-type(1)) {
+  margin-top: 16px;
+}
