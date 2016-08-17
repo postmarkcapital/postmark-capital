@@ -50,7 +50,7 @@
   }
 
   .page-link {
-    color: $grey-color-light;
+    color: #fff;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -67,6 +67,7 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+        line-height: initial;
 
         .menu-icon {
             display: block;
@@ -151,7 +152,7 @@ nav ul {
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 0 0 $spacing-unit 0;
 }
 
 .page-heading {
@@ -222,4 +223,10 @@ nav ul {
             font-size: 18px;
         }
     }
+}
+
+.hero {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 16px;
 }
