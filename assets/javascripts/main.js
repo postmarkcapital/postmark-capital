@@ -7,7 +7,7 @@
 
     function messageUser (success) {
       $form.style.display = 'none';
-      $message.className += success ? ' success' : ' error';
+      $message.className = success ? 'success' : 'error';
     }
 
     function handleResponse (readyState, status) {
@@ -16,14 +16,18 @@
 
     function handleSubmit (e) {
       e.preventDefault();
-      var action = $form.action,
-        method = $form.method,
-        request = new XMLHttpRequest();
-      request.open(method, action, true);
-      request.onreadystatechange = function () {
-        handleResponse(request.readyState, request.status);
-      };
-      request.send(new FormData($form));
+      if (/contact/.test(window.location.href)) {
+        var action = $form.action,
+          method = $form.method,
+          request = new XMLHttpRequest();
+        request.open(method, action, true);
+        request.onreadystatechange = function () {
+          handleResponse(request.readyState, request.status);
+        };
+        request.send(new FormData($form));
+      } else {
+        window.alert('Please contact us for more information');
+      }
     }
 
     if ($form) {
