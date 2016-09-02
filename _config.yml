@@ -7,11 +7,10 @@
 
 # Site settings
 title: Postmark Capital
-email: andrew@postmarkcapital.com
+email: andrew@postmarkcap.com
 description: > # this means to ignore newlines until "baseurl:"
-  Postmark Capital is awesome for reasons
+  Postmark Capital
 url: "http://postmarkcapital.github.io" # the base hostname & protocol for your site
-twitter_username: postmarkcapital
 
 # Build settings
 markdown: kramdown

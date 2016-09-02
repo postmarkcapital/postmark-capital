@@ -4,7 +4,7 @@ layout: default
 <article class="post">
   {% if page.hero %}
     <div class="hero">
-      <img src="{{ site.baseurl }}/assets/images/{{ page.hero.file }}" alt="{{ page.hero.alt }}">
+      <img src="{{ site.baseurl || site.url }}/assets/images/{{ page.hero.file }}" alt="{{ page.hero.alt }}">
     </div>
   {% endif %}
 
