@@ -10,7 +10,7 @@ permalink: /contact/
   <p class="error-text">Sorry, but it looks like there was an error.  Please contacts us directly at some-email@something.com.</p>
 </div>
 
-<form id="contact-form" action="https://formspree.io/jdauriemma+junk@gmail.com" method="post">
+<form id="contact-form" action="https://formspree.io/info@postmarkcap.com" method="post">
   <p>We’d love to hear from you.  Please fill out the form below and we will respond as soon as we can.</p>
 
   <label for="first-name">First Name:</label>
